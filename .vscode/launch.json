@@ -1,0 +1,50 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Activity Monitor",
+            "runtimeExecutable": "${workspaceFolder}/activity-monitor/node_modules/.bin/electron",
+            "program": "${workspaceFolder}/activity-monitor/app.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Electron Tray",
+            "runtimeExecutable": "${workspaceFolder}/electron-tray/node_modules/.bin/electron",
+            "program": "${workspaceFolder}/electron-tray/app.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Hash",
+            "runtimeExecutable": "${workspaceFolder}/hash/node_modules/.bin/electron",
+            "program": "${workspaceFolder}/hash/app.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Mirror",
+            "runtimeExecutable": "${workspaceFolder}/mirror/node_modules/.bin/electron",
+            "program": "${workspaceFolder}/mirror/app.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Prices",
+            "runtimeExecutable": "${workspaceFolder}/prices/node_modules/.bin/electron",
+            "program": "${workspaceFolder}/prices/app.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Url",
+            "runtimeExecutable": "${workspaceFolder}/url/node_modules/.bin/electron",
+            "program": "${workspaceFolder}/url/app.js"
+        }
+    ]
+}

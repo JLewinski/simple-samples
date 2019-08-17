@@ -10,5 +10,8 @@
   "license": "ISC",
   "devDependencies": {
     "electron": "^3.0.2"
+  },
+  "dependencies": {
+    "dragula": "^3.7.2"
   }
 }
